@@ -8,7 +8,7 @@
 
 Name:           %{real_name}-devel
 Epoch:          1
-Version:        13.2.51
+Version:        13.3.73
 Release:        1%{?dist}
 Summary:        CUDA nvptxcompiler
 License:        CUDA Toolkit
@@ -42,6 +42,9 @@ install -p -m 0644 -D include/nvPTXCompiler.h %{buildroot}%{_includedir}/nvPTXCo
 %{_includedir}/nvPTXCompiler.h
 
 %changelog
+* Wed Jul 22 2026 Simone Caronni <negativo17@gmail.com> - 1:13.3.73-1
+- Update to 13.3.73.
+
 * Thu Mar 19 2026 Simone Caronni <negativo17@gmail.com> - 1:13.2.51-1
 - Update to 13.2.51.
 
